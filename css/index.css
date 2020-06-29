@@ -116,9 +116,15 @@ body {
   .f-s {
     font-size: 1.7rem;
   }
-  .exibit::after {
+  .exibit {
     content: '';
     clear: both;
+    display: flex;
+  }
+  .exb {
+    float: left;
+  }
+  .card-holder {
     display: block;
   }
 }
@@ -204,7 +210,7 @@ body {
   border-bottom: 7px dotted rgb(228, 218, 218);
   border-left: 7px dotted rgb(228, 218, 218);
   border-right: 7px dotted rgb(228, 218, 218);
-  bottom: 2%;
+  top: 17%;
   right: 3%;
   z-index: 1;
 }
@@ -373,7 +379,7 @@ body {
   position: relative;
   background: #7e7e7e;
 }
-.num_txt {
+.tag {
   position: absolute;
   width: 5rem;
   height: 5rem;
